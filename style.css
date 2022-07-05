@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: o;
+}
+
+.header-section {
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.banner-div {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+
+}
+
+.banner-div h1 {
+    font-size: 55px;
+
+}
+
+.donate-button {
+    font-size: 18px;
+    color: white;
+    padding: 15px 25px;
+    background-color: rgba(235, 66, 66, 0.897);
+    border: none;
+    border-radius: 5px;
+    margin-top: 1%;
+}
