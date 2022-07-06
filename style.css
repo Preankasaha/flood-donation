@@ -144,6 +144,16 @@ p {
 
 /*our donate plan ends here*/
 /* challenge part starts here */
+.challenge-part {
+    margin-bottom: 100px;
+}
+
+#challenge-title-para {
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
 .bonus-part {
     display: flex;
     margin-left: 8%;
@@ -153,7 +163,7 @@ p {
     width: 40%;
     height: 355px;
     padding: 3%;
-    background-color: rgb(254, 254, 255);
+    background-color: rgba(218, 218, 218, 0.274);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -169,7 +179,7 @@ p {
     width: 40%;
     height: 355px;
     padding: 3%;
-    background-color: rgb(254, 254, 255);
+    background-color: rgba(243, 243, 243, 0.479);
     border-bottom-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -219,7 +229,7 @@ input[type=button] {
     border-bottom-right-radius: 5px;
 }
 
-/* get my updates area s here */
+/* get my updates area ends here */
 
 /* footer area starts here */
 
