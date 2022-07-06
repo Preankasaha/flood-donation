@@ -158,7 +158,7 @@ p {
     padding: 10% 0;
 }
 
-input[type=email] {
+.email-area input[type=email] {
     width: 65%;
     background-color: rgb(221, 219, 219);
     border: none;
@@ -197,3 +197,42 @@ input[type=button] {
 }
 
 /* footer area ends here */
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.bonus-part {
+    display: flex;
+    margin-left: 8%;
+
+}
+
+.challenge-para {
+    width: 40%;
+    height: 355px;
+    padding: 3%;
+    background-color: rgb(254, 254, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-item {
+    display: flex;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+.input-flex {
+    width: 40%;
+    height: 355px;
+    padding: 3%;
+    background-color: rgb(254, 254, 255);
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.join-us-button {
+    margin-left: 40%;
+}
