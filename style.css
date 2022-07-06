@@ -8,6 +8,11 @@ h2 {
     font-size: 35px;
 }
 
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
 p {
     font-size: 20px;
     line-height: 32px;
@@ -138,6 +143,43 @@ p {
 }
 
 /*our donate plan ends here*/
+/* challenge part starts here */
+.bonus-part {
+    display: flex;
+    margin-left: 8%;
+}
+
+.challenge-para {
+    width: 40%;
+    height: 355px;
+    padding: 3%;
+    background-color: rgb(254, 254, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-item {
+    display: flex;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+.input-flex {
+    width: 40%;
+    height: 355px;
+    padding: 3%;
+    background-color: rgb(254, 254, 255);
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.join-us-button {
+    margin-left: 40%;
+}
+
+/* challenge part ends here */
+
 /* get my updates area starts here */
 
 .update-text {
@@ -177,6 +219,8 @@ input[type=button] {
     border-bottom-right-radius: 5px;
 }
 
+/* get my updates area s here */
+
 /* footer area starts here */
 
 .footer-area {
@@ -197,42 +241,3 @@ input[type=button] {
 }
 
 /* footer area ends here */
-h4 {
-    margin: 0;
-    padding: 0;
-}
-
-.bonus-part {
-    display: flex;
-    margin-left: 8%;
-
-}
-
-.challenge-para {
-    width: 40%;
-    height: 355px;
-    padding: 3%;
-    background-color: rgb(254, 254, 255);
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-.input-item {
-    display: flex;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    padding: 2%;
-}
-
-.input-flex {
-    width: 40%;
-    height: 355px;
-    padding: 3%;
-    background-color: rgb(254, 254, 255);
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.join-us-button {
-    margin-left: 40%;
-}
