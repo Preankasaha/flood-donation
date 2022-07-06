@@ -47,6 +47,11 @@ p {
 
 /* header area ends here */
 /* donate today area starts here */
+
+.donation-area {
+    margin-bottom: 100px;
+}
+
 .donation-part {
     text-align: center;
 }
@@ -68,7 +73,6 @@ p {
     text-align: center;
     background-color: rgb(240, 240, 240);
     border-radius: 3px;
-
 }
 
 #box-color {
@@ -98,13 +102,12 @@ p {
     margin-left: 45%;
 }
 
-.donation-area {
-    margin-bottom: 100px;
-
-}
-
 /* donation today area ends here */
 /*our donate plan starts here*/
+
+.donate-plan-area {
+    margin-bottom: 100px;
+}
 
 .plan-title {
     text-align: center;
@@ -132,10 +135,6 @@ p {
 
 #education {
     background-color: rgba(238, 165, 30, 0.192);
-}
-
-.donate-plan-area {
-    margin-bottom: 100px;
 }
 
 /*our donate plan ends here*/
