@@ -53,9 +53,6 @@ p {
 /* header area ends here */
 /* donate today area starts here */
 
-.donation-area {
-    margin-bottom: 100px;
-}
 
 .donation-part {
     text-align: center;
@@ -107,6 +104,10 @@ p {
     margin-left: 45%;
 }
 
+.donation-area {
+    margin-bottom: 100px;
+}
+
 /* donation today area ends here */
 /*our donate plan starts here*/
 
@@ -144,6 +145,7 @@ p {
 
 /*our donate plan ends here*/
 /* challenge part starts here */
+
 .challenge-part {
     margin-bottom: 100px;
 }
@@ -186,6 +188,10 @@ p {
 
 .join-us-button {
     margin-left: 40%;
+}
+
+.challenge-part {
+    margin-bottom: 100px;
 }
 
 /* challenge part ends here */
