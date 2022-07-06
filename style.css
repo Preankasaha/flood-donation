@@ -45,47 +45,34 @@ p {
     margin-top: 1%;
 }
 
-.donate-button {
-    font-size: 18px;
-    color: white;
-    padding: 15px 25px;
-    background-color: rgba(240, 102, 102, 0.897);
-    border: none;
-    border-radius: 5px;
-
-}
-
 /* header area ends here */
-
 /* donate today area starts here */
-
-.plan-area {
-    margin-bottom: 100px;
-}
-
-.donation-option {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .donation-part {
     text-align: center;
 }
 
-.amount-option {
-    margin-top: 5%;
-    padding: 35px 15px;
-    font-size: 30px;
-    font-weight: 700;
-    color: gray;
-    text-align: center;
-    background-color: rgb(241, 240, 240);
-    border-radius: 5px;
+.donate-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 25%;
+    margin-right: 27%;
 }
 
-#amount-opt-2 {
-    border: 2px solid rgb(245, 132, 132);
-    color: rgba(235, 66, 66);
+.donate-opt {
+    width: 110px;
+    height: 80px;
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 3px;
+
+}
+
+#box-color {
+    border: 1px solid rgba(235, 66, 66);
     background-color: antiquewhite;
 }
 
@@ -98,7 +85,6 @@ p {
     margin-top: 5%;
     margin-left: 25%;
     margin-bottom: 20px;
-
 }
 
 #other-option::placeholder {
@@ -110,7 +96,11 @@ p {
 
 .fund-button {
     margin-left: 45%;
+}
+
+.donation-area {
     margin-bottom: 100px;
+
 }
 
 /* donation today area ends here */
@@ -144,15 +134,12 @@ p {
     background-color: rgba(238, 165, 30, 0.192);
 }
 
-/*our donate plan ends here*/
-
-/* get my updates area starts here */
-
-.email-area {
-    display: flex;
-    margin-left: 12%;
-    padding: 12% 0;
+.donate-plan-area {
+    margin-bottom: 100px;
 }
+
+/*our donate plan ends here*/
+/* get my updates area starts here */
 
 .update-text {
     text-align: center;
@@ -160,10 +147,16 @@ p {
 
 #email-id {
     background-color: rgba(255, 231, 187, 0.568);
-    width: 75%;
+    width: 58%;
     height: 200px;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 100px;
+}
+
+.email-area {
+    display: flex;
+    margin-left: 12%;
+    padding: 10% 0;
 }
 
 input[type=email] {
