@@ -25,8 +25,9 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    margin-bottom: 100px;
     opacity: 0.9;
+    margin-bottom: 100px;
+
 }
 
 .banner-part {
@@ -52,10 +53,13 @@ p {
 
 /* header area ends here */
 /* donate today area starts here */
-
+.donation-area {
+    margin-bottom: 100px;
+}
 
 .donation-part {
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .donate-list {
@@ -79,7 +83,7 @@ p {
 
 #box-color {
     color: rgba(240, 102, 102);
-    border: 1px solid rgba(235, 66, 66);
+    border: 2px solid rgba(235, 66, 66);
     background-color: rgba(253, 218, 218, 0.253);
 }
 
@@ -105,9 +109,6 @@ p {
     margin-left: 45%;
 }
 
-.donation-area {
-    margin-bottom: 100px;
-}
 
 /* donation today area ends here */
 /*our donate plan starts here*/
@@ -147,12 +148,31 @@ p {
 /*our donate plan ends here*/
 /* challenge part starts here*/
 
+.challenge-part {
+    margin-bottom: 100px;
+}
+
 #challenge-title-para {
     text-align: center;
+    margin-bottom: 4%;
 }
 
 .bonus-part {
     display: flex;
+}
+
+.challenge-para,
+.input-list {
+    width: 40%;
+    height: 355px;
+    background-color: rgba(168, 168, 168, 0.055);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: -2%;
 }
 
 .input-item input[type=text],
@@ -171,34 +191,16 @@ p {
     margin-top: 15px;
 }
 
-.input-list,
-.challenge-para {
-    width: 40%;
-    height: 355px;
-    background-color: rgba(168, 168, 168, 0.055);
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-bottom: 2%;
-    padding-left: 3%;
-    border-radius: 5px;
-    margin-left: 5%;
-    margin-right: -2%;
-}
-
 .join-us-button {
     margin-left: 40%;
 }
 
-.challenge-part {
-    margin-bottom: 100px;
-}
-
 /* challenge part ends here */
-
 /* get my updates area starts here */
 
 .update-text {
     text-align: center;
+    margin-bottom: 3%;
 }
 
 #email-id {
