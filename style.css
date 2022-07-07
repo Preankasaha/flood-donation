@@ -180,7 +180,7 @@ p {
 .input-item input[type=tel] {
     width: 90%;
     font-size: 25px;
-    background-color: rgb(221, 219, 219);
+    background-color: rgba(221, 219, 219, 0.493);
     border: none;
     padding: 0;
     margin-bottom: 25px;
@@ -188,12 +188,10 @@ p {
 }
 
 .join-us-button {
-    margin-top: 15px;
-}
-
-.join-us-button {
+    margin-top: 28px;
     margin-left: 40%;
 }
+
 
 /* challenge part ends here */
 /* get my updates area starts here */
